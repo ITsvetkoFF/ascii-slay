@@ -1,0 +1,19 @@
+pre {
+  font-size: 6px;
+  font-weight: 900;
+  width: fit-content;
+  margin: 0;
+  line-height: 1;
+}
+
+pre .row-emphasized {
+  color: yellow;
+}
+
+#grid-overlay {
+  position: absolute;
+  top: 0px;
+  z-index: 9999;
+  pointer-events: all;
+  cursor: pointer;
+}
